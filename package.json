@@ -2,10 +2,14 @@
   "name": "tsx-express-static",
   "version": "1.0.0",
   "description": "tsx+express serving static files",
-  "main": "index.js",
+  "main": "app.ts",
   "scripts": {
+    "start": "tsx src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Paul Wooten",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "tsx": "^4.19.2"
+  }
 }
